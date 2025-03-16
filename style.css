@@ -12,17 +12,17 @@
     }
 
 
-
     .root {
         margin: 0%;
         padding: 0%;
         background-color: rgb(248, 248, 248);
         width: 100%;
         height: 650px;
+        padding-bottom: 60px;
     }
 
     .nav {
-        background-color: #AD575A;
+        background-color: #57091e;
         width: 100%;
         height: 70px;
         margin: auto;
@@ -151,7 +151,7 @@
     font-size: 28px;
     padding-top: 25px;
     margin-bottom: 0%;
-    color: #854e34;
+    color: #480b1b;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
 }
@@ -160,7 +160,7 @@
 .hitheretext2{
     font-size: 18px;
     margin-top: 10px;
-    color: rgb(24, 24, 24);
+    color: #480b1b;
     font-family: "Montserrat", sans-serif;
     line-height: 23px;
     margin-bottom: 10px;
@@ -176,7 +176,7 @@
         font-size: 13.5pt;
         font-family: "Montserrat", sans-serif;
         margin-top: -6px;
-        color: #854e34;
+        color: #480b1b;
         font-weight: 600;
         animation: blinker 2s linear infinite;
         text-decoration: none;
@@ -198,7 +198,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 13pt;
     margin-top: 65px;
-    color: rgb(34, 34, 34);
+    color: #480b1b;
     text-align: center;
 }
 
@@ -215,10 +215,6 @@
 }
 
 
-footer{
-    display: none;
-}
-
 .secondnav{
     display: none;
 }
@@ -226,8 +222,53 @@ footer{
 
 
 
-@media only screen and (max-width: 450px) {
 
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer img {
+    width: 130px;
+    height: auto;
+}
+.footer p {
+    margin: 5px 0;
+}
+
+.footer {
+    background-color:#480b1b;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    width: 100%;
+    position: relative; /* Ensures it stays in place */
+    bottom: 0;
+    margin-top: auto; /* Pushes it to the bottom */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px) 
+{
 
     
 
@@ -235,9 +276,11 @@ footer{
         margin: 0%;
         padding: 0%;
         width: 100%;
-        height:800px;
-   
+        height: 900px;
+        padding-bottom: 500px;
     }
+
+   
 
     .background{
         width: 100%;
@@ -257,7 +300,7 @@ footer{
 
 
     .nav {
-        background-color: #AD575A;
+        background-color: #480b1b;
         width: 100%;
         height: 80px;
         margin: auto;
@@ -297,7 +340,7 @@ footer{
     }
 
     .welcome{
-        color: #0e0e0e;
+        color: #480b1b;
         text-align: center;
         font-size: 16pt;
        font-weight: 300;
@@ -306,7 +349,7 @@ footer{
         
     }
     .welcome2{
-        color: #49291d;
+        color: #480b1b;
         text-align: center;
         font-size: 15pt;
        font-weight: 500;
@@ -321,7 +364,7 @@ footer{
             font-size: 111%;
             font-family: "Montserrat", sans-serif;
             margin-top: -6px;
-            color: #49291d;
+            color: #480b1b;
             font-weight: 600;
             animation: blinker 2s linear infinite;
             text-decoration: none;
@@ -355,7 +398,7 @@ footer{
     .secondnav{
         background-color: #ffeeef;
         width: 100%;
-        height: 700px;
+        height: 800px;
         border-radius: 60px 60px 0px 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: list-item;
@@ -367,7 +410,7 @@ footer{
     .joinus{
         font-family: "Raleway", sans-serif;
         font-size: 16px;
-        margin-top: 28px;
+        margin-top: 66px;
         color: #161616;
         letter-spacing: 0px;
         text-align: center;
@@ -410,13 +453,113 @@ footer{
     .buttonicon{
         width: 100%;
         height: 41px;
-        margin-bottom: 10px;
-        margin-top: -18px;
+        margin-bottom: 4px;
+        margin-top: -25px;
     }
+
 
     .newdiv{
         display: inline;
     }
+
+
+    .footer {
+        background-color:#480b1b;
+        color: white;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        width: 100%;
+        position: relative; /* Ensures it stays in place */
+        bottom: 0;
+        margin-top: auto; /* Pushes it to the bottom */
+    }
+
+    .footer img {
+        width: 120px;
+        height: auto;
+    }
+
+
+
+
+
+
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding-top: 25px;
+        
+
+    }
+    
+    .social-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 250px;
+        padding: 4px 4px;
+        margin-top: 3px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-weight: bold;
+        transition: transform 1.3s ease-in-out;
+        animation: pulse 1s infinite alternate;
+    }
+   
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        100% { transform: scale(1.05); }
+    }
+        
+
+    
+    .social-text {
+        flex-grow: 1;
+        text-align: left;
+        padding-left:50px;
+    }
+    .whatsapp { background: #480b1b; }
+    .whatsapp:hover { background: #8c1534; }
+    .instagram { background: #480b1b; }
+    .instagram:hover { background: #8c1534; }
+    .facebook { background: #480b1b; }
+    .facebook:hover { background: #8c1534; }
+
+
+
+    .icon-container {
+        width: 50px;
+        height: 50px;
+        background: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-button img {
+        width: 25px;
+        height: 25px;
+        filter: brightness(0) invert(0);
+    }
+    
+
+   
+
+
+    
+    
 }
     
 
