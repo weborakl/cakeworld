@@ -268,8 +268,14 @@ body, html {
 
 
 @media only screen and (max-width: 450px) 
+
+
+
+
 {
 
+
+   
     
 
     .root {
@@ -404,6 +410,8 @@ body, html {
         display: list-item;
         position: absolute;
         text-align: center;
+      
+        
         
     }
 
@@ -515,6 +523,7 @@ body, html {
         font-weight: bold;
         transition: transform 1.3s ease-in-out;
         animation: pulse 1s infinite alternate;
+        margin: auto;
     }
    
 
@@ -536,6 +545,8 @@ body, html {
     .instagram:hover { background: #8c1534; }
     .facebook { background: #480b1b; }
     .facebook:hover { background: #8c1534; }
+    .call { background: #c65b5b; }
+    .call:hover { background: #7a3030;   }
 
 
 
@@ -553,6 +564,23 @@ body, html {
         height: 25px;
         filter: brightness(0) invert(0);
     }
+
+
+    
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+
     
 
    
